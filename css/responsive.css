@@ -1,0 +1,84 @@
+/***** SMARTPHONES *****/
+
+@media all and (max-width: 767px){
+
+	#navigation{ background-color: #222; padding-top: 25px; }
+	#mobile-toggle{ display: block; }
+	#menu{ float: left; padding-top: 21px; margin-bottom: 22px; }
+	#menu li{ float: none; }
+	#menu li i{ display: none; }
+	
+	.border-bottom{ border: none; }
+	.hero-title h1{ border: none; font-size: 2.5em; }
+	
+	.flex-control-nav{ display: none !important; }
+
+	#about p{ -webkit-columns: 1; }
+
+	.team-member-holder{ margin-bottom: 44px; }
+	
+	.service{ margin-bottom: 44px; }
+	
+	#filters li{ margin-bottom: 22px; }
+	
+	.stat span{ display: inline-block; margin-bottom: 44px; }
+	
+	.price-table{ margin-bottom: 44px; }
+	.value{ 
+		transform: scale(1,1);
+		-ms-transform: scale(1,1);
+		-webkit-transform: scale(1,1);
+		margin-bottom: 44px;
+		margin-top: 0px; 
+	}
+	
+	#clients{ display: none; }
+	
+	.form-upper{ width: 100%; }
+	.form-upper h5{ border-right: none; }
+	.form-lower{ width: 100%; margin-bottom: 22px; }
+	.form-lower h5{ border: none; }
+	#form-button{ width: 100%; }
+	
+	#contact .social-icons .line{ width: 50%; }
+	
+	.divider{ background-attachment: scroll !important; }
+	#home-slider .slides li{ background-attachment: scroll !important; }
+	#services{ background-attachment: scroll !important; }
+
+
+}
+
+
+/***** TABLETS PORTRAIT & LANDSCAPE *****/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+	.divider{ background-attachment: scroll !important; }
+	#home-slider .slides li{ background-attachment: scroll !important; }
+	#services{ background-attachment: scroll !important; }
+
+
+}
+
+
+/***** PORTRAIT TABLETS *****/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+	#menu li i{ display: none; }
+
+	.service{ min-width: 100%; max-width: 100%; }
+	
+	.form-upper{ width: 100%; }
+	.form-upper h5{ border-right: none; }
+	.form-lower{ width: 100%; margin-bottom: 22px; }
+	.form-lower h5{ border: none; }
+	#form-button{ width: 100%; }
+
+}
